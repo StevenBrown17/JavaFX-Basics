@@ -19,7 +19,7 @@ public class LoginController {
 	
 	public void Login(ActionEvent event) throws Exception{
 		if(txtUserName.getText().equals("User") && txtPassword.getText().equals("pass")){
-			lblStatus.setText("Login Success");
+			lblStatus.setText("Login Success!!!!");
 			Stage primaryStage = new Stage();
 			Parent root = FXMLLoader.load(getClass().getResource("/application/Login2.fxml"));
 			Scene scene = new Scene(root,500,500);
